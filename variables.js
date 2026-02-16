@@ -34,7 +34,7 @@
 // }
 
 // console.log(userage); // Error
-// Note: Variabled declared with let are blocked scope
+// Note: Variables declared with let are blocked scope
 
 // let userName = "Mohsin"
 // console.log("User Name initial:::", userName);
@@ -47,9 +47,9 @@
 // ***************************************************************
 
 // Const contains all the capability of let with one extra thing is we can't reassign the value to the const  variable and we must initialize it when declaring
-// const userName = "Mohsin";
-// console.log("Variable declared with const keyword is::::::::::::::::::", userName);
-// userName = "Arbab";
+const userName = "Mohsin";
+console.log("Variable declared with const keyword is::::::::::::::::::", userName);
+userName = "Arbab";
 // console.log("Variable changed value is", userName);
 
 
